@@ -1,0 +1,38 @@
+{
+  "name": "name_here",
+  "version": "1.0.0",
+  "description": "Para começar a realizar qualquer tipo de ação no tema, leia as instruções README.md",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd functions && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheussalt/name_here.git"
+  },
+  "author": "Matheus Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheussalt/name_here/issues"
+  },
+  "homepage": "https://github.com/matheussalt/name_here#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/runtime": "^7.7.4",
+    "cwebp": "^2.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "imagemin": "^7.0.0",
+    "imagemin-webp": "^5.1.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.7.4"
+  }
+}
