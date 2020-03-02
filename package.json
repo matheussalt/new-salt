@@ -1,5 +1,5 @@
 {
-  "name": "name_here",
+  "name": "new-salt",
   "version": "1.0.0",
   "description": "Para começar a realizar qualquer tipo de ação no tema, leia as instruções README.md",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matheussalt/name_here.git"
+    "url": "git+https://github.com/matheussalt/new-salt.git"
   },
   "author": "Matheus Fonseca",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matheussalt/name_here/issues"
+    "url": "https://github.com/matheussalt/new-salt/issues"
   },
-  "homepage": "https://github.com/matheussalt/name_here#readme",
+  "homepage": "https://github.com/matheussalt/new-salt#readme",
   "dependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
