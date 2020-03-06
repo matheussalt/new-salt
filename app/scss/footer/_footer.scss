@@ -1,0 +1,61 @@
+.footer {
+  position: relative;
+  width: 100%;
+  padding: 64px 0 0;
+  background-color: $yellow;
+  z-index: 10;
+
+  .wave {
+    top: -10%;
+    z-index: -1;
+  }
+}
+
+.dados-wrapper {
+  position: relative;
+  display: grid;
+  gap: 32px;
+  margin-bottom: 32px;
+
+  img {
+    position: absolute;
+    top: -15%;
+    right: -40%;
+    width: 80%;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  .dados-txt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      font-size: 18px;
+      line-height: 27px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .call-to-action {
+      margin-top: 16px;
+      background-color: $black;
+      color: #fff;
+    }
+  }
+}
+
+.rodape {
+  width: 100%;
+  background-color: $black;
+  padding: 16px 0;
+
+  p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@import './dados';
+@import './instagram';

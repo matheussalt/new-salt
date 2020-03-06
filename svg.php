@@ -131,6 +131,8 @@
   </g>
 </svg>
 
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"><defs><clipPath id="a"><rect width="32" height="32" transform="translate(5250 7439)"/></clipPath></defs><g transform="translate(-5250 -7439)" clip-path="url(#a)"><g transform="translate(5250 7430.442)"><path d="M32,28.305V40.136H25.141V29.1c0-2.773-.992-4.665-3.475-4.665a3.753,3.753,0,0,0-3.519,2.509,4.693,4.693,0,0,0-.228,1.672V40.136H11.059s.092-18.7,0-20.632h6.86v2.925c-.014.022-.032.045-.045.067h.045v-.067A6.812,6.812,0,0,1,24.1,19.019C28.616,19.019,32,21.968,32,28.305ZM3.882,9.558a3.575,3.575,0,1,0-.091,7.131h.046a3.577,3.577,0,1,0,.045-7.131ZM.407,40.136H7.266V19.5H.407Z" /></g></g></svg>
+
 <svg id="youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
   viewBox="0 0 32 32">
   <defs>
@@ -144,3 +146,4 @@
       transform="translate(3701.423 -30.624)" />
   </g>
 </svg>
+

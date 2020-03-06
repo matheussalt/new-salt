@@ -1,0 +1,53 @@
+.dados {
+  width: 70%;
+  font-style: normal;
+
+  .title {
+    margin-bottom: 32px;
+    color: $black;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  ul {
+    width: 100%;
+
+    li a {
+      padding: 4px 0;
+      display: flex;
+      align-items: center;
+      color: $black;
+
+      svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        fill: $black;
+      }
+
+      span {
+        flex: 1;
+        font-size: 14px;
+
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .social-footer {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 16px;
+      height: 16px;
+      margin-right: 16px;
+      fill: $black;
+    }
+  }
+}

@@ -1,6 +1,8 @@
-function openMenu() {
+export default function openMenu() {
   const menuHamb = document.querySelector('[data-menu="button"]');
   const menu = document.querySelector('[data-menu="menu"]');
+
+  if (!menuHamb || !menu) return null;
 
   menuHamb.addEventListener('click', e => {
     e.preventDefault();
@@ -9,4 +11,3 @@ function openMenu() {
     menuHamb.classList.toggle('ativo');
   });
 }
-openMenu();

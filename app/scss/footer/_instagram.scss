@@ -1,0 +1,29 @@
+.instagram {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  a {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    display: block;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    svg {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 16px;
+      height: 16px;
+      fill: #fff;
+    }
+  }
+}

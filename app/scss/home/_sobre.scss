@@ -1,0 +1,108 @@
+.home-sobre {
+  position: relative;
+  width: 100%;
+  padding: 32px 0 0;
+  background-color: $yellow;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .wave {
+    top: 80%;
+  }
+}
+
+.home-sobre-text {
+  width: 100%;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    max-width: 200px;
+    color: $black;
+    text-align: center;
+
+    &::before {
+      top: -16px;
+      width: 48px;
+      height: 2px;
+      background-color: $black;
+    }
+  }
+
+  p {
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  .call-to-action {
+    background-color: $black;
+    color: #fff;
+  }
+}
+
+.gallery-wrapper {
+  position: relative;
+  width: 90%;
+  padding-top: 60%;
+  margin: 32px auto;
+  z-index: 1;
+
+  .gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      display: block;
+      margin-right: 10px;
+      object-fit: cover;
+      transition: 0.5s transform ease-out;
+    }
+  }
+
+  .gallery-button {
+    position: absolute;
+    top: 50%;
+    left: -21px;
+    padding: 16px;
+    background-color: transparent;
+    border: none;
+    transform: translate3d(0, -50%, 0);
+
+    &.gallery-right {
+      left: unset;
+      right: -21px;
+    }
+
+    img {
+      width: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .gallery-wrapper {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .gallery-wrapper {
+    padding-top: 15%;
+  }
+}

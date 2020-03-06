@@ -1,19 +1,107 @@
+$yellow: #fed303;
+$black: #343434;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   outline: none;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
 }
 
-ul, ol, li {
+html,
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+ul,
+ol,
+li {
   list-style: none;
+}
+
+p,
+li {
+  color: $black;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 a {
   text-decoration: none;
 }
 
-@import './css/header/header';
-@import './css/footer/footer';
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.title {
+  position: relative;
+  color: #fff;
+  font-size: 28px;
+  font-weight: lighter;
+  line-height: 38px;
+  text-transform: uppercase;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: calc(-100% - 32px);
+    left: 50%;
+    width: 2px;
+    height: 48px;
+    transform: translate3d(-50%, 0, 0);
+    background-color: $yellow;
+  }
+}
+
+.call-to-action {
+  padding: 8px 32px;
+  display: inline-block;
+  background-color: $yellow;
+  border-radius: 16px;
+  color: $black;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  z-index: 0;
+}
+
+#effect,
+#effect2,
+#effect3 {
+  position: absolute;
+  width: 140%;
+  opacity: 0.15;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+
+  g {
+    transition: 0.3s translate3d ease-out;
+  }
+}
+
+@import './scss/header/header';
+@import './scss/footer/footer';
+@import './scss/home/index';
+@import './scss/projetos/index';
+@import './scss/blog/index';
 @import './animation';
